@@ -1,5 +1,5 @@
 {
-    "include": ["src/*"],
+    "include": ["src/*", "src/View/TableBox", "src/View/TableList"],
     "exclude": [
         "cjs",
         "esm",
