@@ -1,6 +1,6 @@
 {
     "name": "fenextjs-svg",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "description": "",
     "main": "./cjs/index.js",
     "module": "./cjs/index.js",
