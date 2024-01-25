@@ -118,4 +118,5 @@ tslib_1.__exportStar(require("./Save"), exports);
 tslib_1.__exportStar(require("./Download"), exports);
 tslib_1.__exportStar(require("./Card"), exports);
 tslib_1.__exportStar(require("./View"), exports);
+tslib_1.__exportStar(require("./Arrow"), exports);
 //# sourceMappingURL=index.js.map
