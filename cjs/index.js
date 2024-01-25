@@ -117,6 +117,5 @@ tslib_1.__exportStar(require("./Theme"), exports);
 tslib_1.__exportStar(require("./Save"), exports);
 tslib_1.__exportStar(require("./Download"), exports);
 tslib_1.__exportStar(require("./Card"), exports);
-tslib_1.__exportStar(require("./TableBox"), exports);
-tslib_1.__exportStar(require("./TableList"), exports);
+tslib_1.__exportStar(require("./View"), exports);
 //# sourceMappingURL=index.js.map

@@ -1,3 +1,4 @@
+import React from 'react'
 import { Story, Meta } from "@storybook/react";
 
 import { SelectBox } from "./index";
@@ -7,7 +8,7 @@ export default {
     component: SelectBox,
 } as Meta;
 
-const TemplateIndex: Story<{ size?: number }> = (args) => (
+const TemplateIndex: Story<{ className?:string }> = (args) => (
     <SelectBox {...args}/>
 );
 
