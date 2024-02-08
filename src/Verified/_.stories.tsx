@@ -1,3 +1,4 @@
+import React from 'react'
 import { Story, Meta } from "@storybook/react";
 
 import { Verified} from "./index";
@@ -7,7 +8,7 @@ export default {
     component: Verified,
 } as Meta;
 
-const TemplateIndex: Story<{ size?: number }> = (args) => (
+const TemplateIndex: Story<{ className?: string }> = (args) => (
     <Verified {...args}/>
 );
 

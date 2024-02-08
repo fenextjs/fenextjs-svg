@@ -1,5 +1,5 @@
 import React from 'react';
-export const SvgImg = ({ className = '' }: { className?: string }) => (
+export const Img = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 50 44"
@@ -12,4 +12,3 @@ export const SvgImg = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default SvgImg;
