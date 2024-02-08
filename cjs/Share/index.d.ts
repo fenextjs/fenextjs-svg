@@ -1,4 +1,4 @@
 import React from 'react';
-export declare const Img: ({ className }: {
+export declare const Share: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
