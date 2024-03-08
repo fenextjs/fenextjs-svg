@@ -1,15 +1,15 @@
 import React from 'react'
 import { Story, Meta } from "@storybook/react";
 
-import { Nequi } from "./index";
+import { SVGNumberIncrease } from "./index";
 
 export default {
-    title: "Svg/Nequi",
-    component: Nequi,
+    title: "Svg/SVGNumberIncrease",
+    component: SVGNumberIncrease,
 } as Meta;
 
 const TemplateIndex: Story<{ className?: string }> = (args) => (
-    <Nequi {...args}/>
+    <SVGNumberIncrease {...args}/>
 );
 
 export const Index = TemplateIndex.bind({});

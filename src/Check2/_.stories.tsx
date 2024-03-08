@@ -4,7 +4,7 @@ import { Story, Meta } from "@storybook/react";
 import { Check2 } from "./index";
 
 export default {
-    title: "Svg/MercadoLibre",
+    title: "Svg/Check2",
     component: Check2,
 } as Meta;
 
