@@ -116,3 +116,4 @@ export * from './Download';
 export * from './Card';
 export * from './View';
 export * from './Arrow';
+export * from './Qr';
