@@ -1,5 +1,5 @@
 import React from 'react';
 export declare const SelectBox: ({ className }: {
-    className?: string | undefined;
+    className?: string;
 }) => React.JSX.Element;
 export default SelectBox;

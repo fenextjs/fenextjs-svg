@@ -1,7 +1,7 @@
 import React from 'react';
 export declare const Copy: ({ className }: {
-    className?: string | undefined;
+    className?: string;
 }) => React.JSX.Element;
 export declare const CopyBox: ({ className }: {
-    className?: string | undefined;
+    className?: string;
 }) => React.JSX.Element;

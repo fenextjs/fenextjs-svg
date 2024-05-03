@@ -1,5 +1,5 @@
 import React from 'react';
 export declare const Border: ({ className }: {
-    className?: string | undefined;
+    className?: string;
 }) => React.JSX.Element;
 export default Border;

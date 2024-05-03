@@ -1,5 +1,5 @@
 import React from 'react';
 export declare const TableList: ({ className }: {
-    className?: string | undefined;
+    className?: string;
 }) => React.JSX.Element;
 export default TableList;
