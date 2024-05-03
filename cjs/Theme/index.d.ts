@@ -1,4 +1,4 @@
 import React from 'react';
-export declare const Theme: ({ className }: {
+export declare const SvgTheme: ({ className }: {
     className?: string;
 }) => React.JSX.Element;

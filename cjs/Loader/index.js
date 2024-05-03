@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Loader = void 0;
+exports.SvgLoader = void 0;
 const tslib_1 = require("tslib");
 const react_1 = tslib_1.__importDefault(require("react"));
-const Loader = ({ className = '' }) => (react_1.default.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", className: `fenext_svg ${className}`, viewBox: "0 0 100 100", preserveAspectRatio: "xMidYMid" },
+const SvgLoader = ({ className = '' }) => (react_1.default.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", className: `fenext_svg ${className}`, viewBox: "0 0 100 100", preserveAspectRatio: "xMidYMid" },
     react_1.default.createElement("g", { transform: "rotate(0 50 50)" },
         react_1.default.createElement("rect", { x: "47.5", y: "20.5", rx: "2.5", ry: "6.5", width: "5", height: "13", fill: "currentColor" },
             react_1.default.createElement("animate", { attributeName: "opacity", values: "1;0", keyTimes: "0;1", dur: "0.5555555555555556s", begin: "-0.5185185185185185s", repeatCount: "indefinite" }))),
@@ -49,6 +49,5 @@ const Loader = ({ className = '' }) => (react_1.default.createElement("svg", { x
     react_1.default.createElement("g", { transform: "rotate(336 50 50)" },
         react_1.default.createElement("rect", { x: "47.5", y: "20.5", rx: "2.5", ry: "6.5", width: "5", height: "13", fill: "currentColor" },
             react_1.default.createElement("animate", { attributeName: "opacity", values: "1;0", keyTimes: "0;1", dur: "0.5555555555555556s", begin: "0s", repeatCount: "indefinite" })))));
-exports.Loader = Loader;
-exports.default = exports.Loader;
+exports.SvgLoader = SvgLoader;
 //# sourceMappingURL=index.js.map

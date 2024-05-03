@@ -1,4 +1,4 @@
 import React from 'react';
-export declare const Share: ({ className }: {
+export declare const SvgShare: ({ className }: {
     className?: string;
 }) => React.JSX.Element;

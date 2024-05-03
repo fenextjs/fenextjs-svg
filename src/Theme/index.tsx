@@ -1,5 +1,5 @@
 import React from 'react';
-export const Theme = ({ className = '' }: { className?: string }) => (
+export const SvgTheme = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 209 172"

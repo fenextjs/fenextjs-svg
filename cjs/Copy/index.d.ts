@@ -1,7 +1,7 @@
 import React from 'react';
-export declare const Copy: ({ className }: {
+export declare const SvgCopy: ({ className }: {
     className?: string;
 }) => React.JSX.Element;
-export declare const CopyBox: ({ className }: {
+export declare const SvgCopyBox: ({ className }: {
     className?: string;
 }) => React.JSX.Element;

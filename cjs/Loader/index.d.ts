@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Loader: ({ className }: {
+export declare const SvgLoader: ({ className }: {
     className?: string;
 }) => React.JSX.Element;
-export default Loader;

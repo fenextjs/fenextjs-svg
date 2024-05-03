@@ -1,5 +1,5 @@
 import React from 'react';
-export const Copy = ({ className = '' }: { className?: string }) => (
+export const SvgCopy = ({ className = '' }: { className?: string }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         className={`fenext_svg ${className}`}
@@ -21,7 +21,7 @@ export const Copy = ({ className = '' }: { className?: string }) => (
         </g>
     </svg>
 );
-export const CopyBox = ({ className = '' }: { className?: string }) => (
+export const SvgCopyBox = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 624 624"
