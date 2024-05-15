@@ -1,7 +1,7 @@
 import React from 'react';
 export declare const SvgCopy: ({ className }: {
-    className?: string;
+    className?: string | undefined;
 }) => React.JSX.Element;
 export declare const SvgCopyBox: ({ className }: {
-    className?: string;
+    className?: string | undefined;
 }) => React.JSX.Element;

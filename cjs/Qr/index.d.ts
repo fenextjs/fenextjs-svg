@@ -1,4 +1,4 @@
 import React from 'react';
 export declare const Qr: ({ className }: {
-    className?: string;
+    className?: string | undefined;
 }) => React.JSX.Element;

@@ -1,6 +1,6 @@
 {
   "name": "fenextjs-svg",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "",
   "main": "./cjs/index.js",
   "module": "./cjs/index.js",
@@ -20,7 +20,7 @@
     "remove-bun-lockb": "rm -r bun.lockb",
     "remove-node-module": "rm -r node_modules",
     "remove": "npm run remove-node-module && npm run remove-bun-lockb",
-    "update-package": "ncu -u !next",
+    "update-package": "ncu -u '/fenextjs.*$/'",
     "update": "npm run update-package && npm run remove && npm run bun-i && npm run flb",
     "u": "npm run update"
   },
@@ -41,35 +41,35 @@
   },
   "homepage": "https://github.com/franciscoblancojn/fenextjs-svg#readme",
   "dependencies": {
-    "fenextjs-nextjs-dependencies": "^1.0.0"
+    "fenextjs-nextjs-dependencies": "2.0.0"
   },
   "files": [
     "cjs",
     "esm"
   ],
   "devDependencies": {
-    "@storybook/addon-actions": "^7.4.3",
-    "@storybook/addon-essentials": "^7.4.3",
-    "@storybook/addon-interactions": "^7.4.3",
-    "@storybook/addon-links": "^7.4.3",
-    "@storybook/addon-onboarding": "^1.0.8",
-    "@storybook/blocks": "^7.5.3",
-    "@storybook/nextjs": "^7.5.3",
-    "@storybook/react": "^7.4.3",
-    "@storybook/testing-library": "^0.2.1",
+    "@storybook/addon-actions": "7.4.3",
+    "@storybook/addon-essentials": "7.4.3",
+    "@storybook/addon-interactions": "7.4.3",
+    "@storybook/addon-links": "7.4.3",
+    "@storybook/addon-onboarding": "1.0.8",
+    "@storybook/blocks": "7.5.3",
+    "@storybook/nextjs": "7.5.3",
+    "@storybook/react": "7.4.3",
+    "@storybook/testing-library": "0.2.1",
     "@types/node": "20.6.3",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
-    "@typescript-eslint/eslint-plugin": "^6.7.2",
-    "@typescript-eslint/parser": "^6.7.2",
+    "@typescript-eslint/eslint-plugin": "6.7.2",
+    "@typescript-eslint/parser": "6.7.2",
     "eslint": "8.49.0",
-    "eslint-plugin-storybook": "^0.6.15",
-    "npm-check-updates": "^16.14.11",
-    "prettier": "^3.0.3",
-    "storybook": "^7.5.3",
-    "storybook-dark-mode": "^3.0.1",
-    "ts-loader": "^9.4.4",
-    "tslib": "^2.6.2",
-    "typescript": "^5.2.2"
+    "eslint-plugin-storybook": "0.6.15",
+    "npm-check-updates": "16.14.11",
+    "prettier": "3.0.3",
+    "storybook": "7.5.3",
+    "storybook-dark-mode": "3.0.1",
+    "ts-loader": "9.4.4",
+    "tslib": "2.6.2",
+    "typescript": "5.2.2"
   }
 }
