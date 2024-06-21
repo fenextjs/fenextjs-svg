@@ -118,3 +118,4 @@ export * from './View';
 export * from './Arrow';
 export * from './Qr';
 export * from './Bolt';
+export * from './Link';
