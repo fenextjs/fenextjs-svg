@@ -12,4 +12,25 @@ export const X = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
+
+export const XBox = ({ className = '' }: { className?: string }) => (
+    <svg
+        className={`fenext_svg ${className}`}
+        viewBox="0 0 624 624"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+        <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M100 0C44.7715 0 0 44.7715 0 100V524C0 579.228 44.7715 624 100 624H524C579.228 624 624 579.229 624 524V100C624 44.7715 579.229 0 524 0H100Z"
+            fill="var(--color-box,black)"
+        />
+        <path
+            d="M430.474 125H493.65L355.629 282.999L518 498H390.865L291.288 367.603L177.35 498H114.136L261.763 329.002L106 125H236.363L326.371 244.188L430.474 125ZM408.301 460.126H443.308L217.341 160.885H179.775L408.301 460.126Z"
+            fill="var(--color-x,white)"
+        />
+    </svg>
+);
+
 export default X;
