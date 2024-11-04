@@ -11,6 +11,5 @@ export const X = ({ className = '' }: { className?: string }) => (
             fill="currentColor"
         />
     </svg>
-
 );
 export default X;

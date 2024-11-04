@@ -122,4 +122,5 @@ tslib_1.__exportStar(require("./Arrow"), exports);
 tslib_1.__exportStar(require("./Qr"), exports);
 tslib_1.__exportStar(require("./Bolt"), exports);
 tslib_1.__exportStar(require("./Link"), exports);
+tslib_1.__exportStar(require("./X"), exports);
 //# sourceMappingURL=index.js.map
