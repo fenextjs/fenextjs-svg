@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Date: ({ className }: {
+export declare const SvgDate: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Date;

@@ -1,5 +1,5 @@
 import React from 'react';
-export const Bancolombia = ({ className = '' }: { className?: string }) => (
+export const SvgBancolombia = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 650 650"
@@ -20,4 +20,3 @@ export const Bancolombia = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default Bancolombia;

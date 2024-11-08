@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Fantime: ({ className }: {
+export declare const SvgFantime: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Fantime;

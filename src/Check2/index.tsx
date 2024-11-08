@@ -1,5 +1,5 @@
 import React from 'react';
-export const Check2 = ({ className = '' }: { className?: string }) => (
+export const SvgCheck2 = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 16 16"
@@ -16,4 +16,3 @@ export const Check2 = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default Check2;

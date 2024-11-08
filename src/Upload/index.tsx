@@ -1,5 +1,5 @@
 import React from 'react';
-export const Upload = ({ className = '' }: { className?: string }) => (
+export const SvgUpload = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         xmlns="http://www.w3.org/2000/svg"
@@ -11,7 +11,7 @@ export const Upload = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export const Upload2 = ({ className = '' }: { className?: string }) => (
+export const SvgUpload2 = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 76 76"
@@ -26,4 +26,3 @@ export const Upload2 = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default Upload;

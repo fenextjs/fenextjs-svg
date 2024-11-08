@@ -1,5 +1,5 @@
 import React from 'react';
-export const Close = ({ className = '' }: { className?: string }) => (
+export const SvgClose = ({ className = '' }: { className?: string }) => (
     <>
         <svg
             className={`fenext_svg ${className}`}
@@ -14,4 +14,3 @@ export const Close = ({ className = '' }: { className?: string }) => (
         </svg>
     </>
 );
-export default Close;

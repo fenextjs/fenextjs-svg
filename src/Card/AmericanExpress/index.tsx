@@ -1,5 +1,5 @@
 import React from 'react';
-export const CardAmericanExpress = ({
+export const SvgCardAmericanExpress = ({
     className = '',
 }: {
     className?: string;

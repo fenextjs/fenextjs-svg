@@ -1,5 +1,5 @@
 import React from 'react';
-export const TableBox = ({ className = '' }: { className?: string }) => (
+export const SvgTableBox = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 24 24"
@@ -14,4 +14,3 @@ export const TableBox = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default TableBox;

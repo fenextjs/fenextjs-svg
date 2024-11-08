@@ -1,5 +1,5 @@
 import React from 'react';
-export const DinersClub = ({ className = '' }: { className?: string }) => (
+export const SvgDinersClub = ({ className = '' }: { className?: string }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         className={`fenext_svg ${className}`}
@@ -23,4 +23,3 @@ export const DinersClub = ({ className = '' }: { className?: string }) => (
         </g>
     </svg>
 );
-export default DinersClub;

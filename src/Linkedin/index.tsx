@@ -1,5 +1,5 @@
 import React from 'react';
-export const Linkedin = ({ className = '' }: { className?: string }) => (
+export const SvgLinkedin = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 448 448"
@@ -13,7 +13,7 @@ export const Linkedin = ({ className = '' }: { className?: string }) => (
     </svg>
 );
 
-export const LinkedinBox = ({ className = '' }: { className?: string }) => (
+export const SvgLinkedinBox = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 624 624"
@@ -28,4 +28,3 @@ export const LinkedinBox = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default Linkedin;

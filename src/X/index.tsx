@@ -1,5 +1,5 @@
 import React from 'react';
-export const X = ({ className = '' }: { className?: string }) => (
+export const SvgX = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 22 20"
@@ -13,7 +13,7 @@ export const X = ({ className = '' }: { className?: string }) => (
     </svg>
 );
 
-export const XBox = ({ className = '' }: { className?: string }) => (
+export const SvgXBox = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 624 624"
@@ -32,5 +32,3 @@ export const XBox = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-
-export default X;

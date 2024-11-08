@@ -1,8 +1,7 @@
 import React from 'react';
-export declare const Upload: ({ className }: {
+export declare const SvgUpload: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export declare const Upload2: ({ className }: {
+export declare const SvgUpload2: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Upload;

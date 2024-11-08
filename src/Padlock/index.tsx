@@ -1,5 +1,5 @@
 import React from 'react';
-export const Padlock = ({ className = '' }: { className?: string }) => (
+export const SvgPadlock = ({ className = '' }: { className?: string }) => (
     <svg
         data-name="Group 15802"
         xmlns="http://www.w3.org/2000/svg"
@@ -26,4 +26,3 @@ export const Padlock = ({ className = '' }: { className?: string }) => (
         </g>
     </svg>
 );
-export default Padlock;

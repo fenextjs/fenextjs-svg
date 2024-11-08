@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const SelectBox: ({ className }: {
+export declare const SvgSelectBox: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default SelectBox;

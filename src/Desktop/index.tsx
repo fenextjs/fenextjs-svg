@@ -1,5 +1,5 @@
 import React from 'react';
-export const Desktop = ({ className = '' }: { className?: string }) => (
+export const SvgDesktop = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         xmlns="http://www.w3.org/2000/svg"
@@ -11,7 +11,7 @@ export const Desktop = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export const DesktopLayer = ({ className = '' }: { className?: string }) => (
+export const SvgDesktopLayer = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 576 512"
@@ -36,4 +36,3 @@ export const DesktopLayer = ({ className = '' }: { className?: string }) => (
         </defs>
     </svg>
 );
-export default Desktop;

@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Manyvids: ({ className }: {
+export declare const SvgManyvids: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Manyvids;

@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Camsoda: ({ className }: {
+export declare const SvgCamsoda: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Camsoda;

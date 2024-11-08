@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const SoundCloud: ({ className }: {
+export declare const SvgSoundCloud: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default SoundCloud;

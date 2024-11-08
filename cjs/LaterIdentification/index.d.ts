@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const LaterIdentification: ({ className, }: {
+export declare const SvgLaterIdentification: ({ className, }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default LaterIdentification;

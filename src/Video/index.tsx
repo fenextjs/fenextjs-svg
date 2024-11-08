@@ -1,5 +1,5 @@
 import React from 'react';
-export const Video = ({ className = '' }: { className?: string }) => (
+export const SvgVideo = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 50 34"
@@ -12,4 +12,3 @@ export const Video = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default Video;

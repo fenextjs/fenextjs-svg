@@ -1,5 +1,5 @@
 import React from 'react';
-export const Date = ({ className = '' }: { className?: string }) => (
+export const SvgDate = ({ className = '' }: { className?: string }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 448 512"
@@ -12,4 +12,3 @@ export const Date = ({ className = '' }: { className?: string }) => (
         ></path>
     </svg>
 );
-export default Date;

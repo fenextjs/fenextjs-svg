@@ -1,8 +1,7 @@
 import React from 'react';
-export declare const Linkedin: ({ className }: {
+export declare const SvgLinkedin: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export declare const LinkedinBox: ({ className }: {
+export declare const SvgLinkedinBox: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Linkedin;

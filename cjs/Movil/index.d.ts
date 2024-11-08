@@ -1,8 +1,7 @@
 import React from 'react';
-export declare const Movil: ({ className }: {
+export declare const SvgMovil: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export declare const MovilLayer: ({ className }: {
+export declare const SvgMovilLayer: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Movil;

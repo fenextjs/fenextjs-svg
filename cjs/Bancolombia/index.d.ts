@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Bancolombia: ({ className }: {
+export declare const SvgBancolombia: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Bancolombia;

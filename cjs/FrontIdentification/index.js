@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.FrontIdentification = void 0;
+exports.SvgFrontIdentification = void 0;
 const tslib_1 = require("tslib");
 const react_1 = tslib_1.__importDefault(require("react"));
-const FrontIdentification = ({ className = '', }) => (react_1.default.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", className: `fenext_svg ${className}`, viewBox: "0 0 151.615 78.707" },
+const SvgFrontIdentification = ({ className = '', }) => (react_1.default.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", className: `fenext_svg ${className}`, viewBox: "0 0 151.615 78.707" },
     react_1.default.createElement("g", { "data-name": "Group 16123" },
         react_1.default.createElement("g", { "data-name": "Group 16040" },
             react_1.default.createElement("path", { "data-name": "Path 11665", d: "M130.195 79.946H8.369A5.369 5.369 0 0 1 3 74.577V8.369A5.369 5.369 0 0 1 8.369 3h121.826a5.369 5.369 0 0 1 5.369 5.369v66.208a5.369 5.369 0 0 1-5.369 5.369", transform: "translate(-2.119 -2.119)", fill: "#fff" }),
@@ -22,6 +22,5 @@ const FrontIdentification = ({ className = '', }) => (react_1.default.createElem
             react_1.default.createElement("path", { "data-name": "Path 11678", d: "M431.785 138.928a17.61 17.61 0 1 1-17.61-17.61 17.61 17.61 0 0 1 17.61 17.61", transform: "translate(-280.171 -85.71)", fill: "#fff" }),
             react_1.default.createElement("path", { "data-name": "Path 11679", d: "M420.579 151.554v-3.959h-3.959a1.131 1.131 0 0 1 0-2.262h3.959v-3.959a1.131 1.131 0 0 1 2.262 0v3.959h3.959a1.131 1.131 0 0 1 0 2.262h-3.959v3.959a1.131 1.131 0 0 1-2.262 0m11.37-15.328a14.478 14.478 0 1 0-2.747 22.631 1.131 1.131 0 1 0-1.172-1.935 12.325 12.325 0 1 1 3.826-3.677 1.131 1.131 0 0 0 1.881 1.257 14.444 14.444 0 0 0-1.788-18.277", transform: "translate(-287.707 -93.246)", fill: "#050605" }),
             react_1.default.createElement("path", { "data-name": "Rectangle 7828", fill: "none", d: "M0 0h151.615v78.707H0z" })))));
-exports.FrontIdentification = FrontIdentification;
-exports.default = exports.FrontIdentification;
+exports.SvgFrontIdentification = SvgFrontIdentification;
 //# sourceMappingURL=index.js.map

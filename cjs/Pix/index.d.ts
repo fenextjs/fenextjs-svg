@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Pix: ({ className }: {
+export declare const SvgPix: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Pix;

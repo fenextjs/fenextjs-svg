@@ -1,10 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.TableList = void 0;
+exports.SvgTableList = void 0;
 const tslib_1 = require("tslib");
 const react_1 = tslib_1.__importDefault(require("react"));
-const TableList = ({ className = '' }) => (react_1.default.createElement("svg", { className: `fenext_svg ${className}`, viewBox: "0 0 27 24", fill: "none", xmlns: "http://www.w3.org/2000/svg" },
+const SvgTableList = ({ className = '' }) => (react_1.default.createElement("svg", { className: `fenext_svg ${className}`, viewBox: "0 0 27 24", fill: "none", xmlns: "http://www.w3.org/2000/svg" },
     react_1.default.createElement("path", { d: "M22.88 0H3.269C2.40233 0.00105853 1.57146 0.34581 0.958637 0.958637C0.34581 1.57146 0.00105853 2.40233 0 3.269L0 20.7C0.000793892 21.5668 0.345428 22.398 0.958284 23.011C1.57114 23.6241 2.40216 23.9689 3.269 23.97H22.88C23.7468 23.9689 24.5779 23.6241 25.1907 23.011C25.8036 22.398 26.1482 21.5668 26.149 20.7V3.269C26.1479 2.40233 25.8032 1.57146 25.1904 0.958637C24.5775 0.34581 23.7467 0.00105853 22.88 0ZM8.171 7.627H11.984V10.9H8.171V7.627ZM5.992 10.9H2.179V7.627H5.992V10.9ZM14.163 7.631H17.976V10.9H14.164L14.163 7.631ZM20.155 7.631H23.97V10.9H20.156L20.155 7.631ZM2.179 13.074H5.992V16.343H2.179V13.074ZM8.171 13.074H11.984V16.343H8.171V13.074ZM11.984 18.522V21.791H8.171V18.522H11.984ZM14.163 18.522H17.976V21.791H14.164L14.163 18.522ZM14.163 16.343V13.074H17.976V16.343H14.163ZM20.155 13.074H23.97V16.343H20.156L20.155 13.074ZM2.179 20.7V18.522H5.992V21.791H3.269C2.97982 21.7907 2.70258 21.6757 2.49819 21.4711C2.29381 21.2665 2.179 20.9892 2.179 20.7ZM22.879 21.79H20.156V18.522H23.97V20.7C23.97 20.9892 23.8552 21.2665 23.6508 21.4711C23.4464 21.6757 23.1692 21.7907 22.88 21.791L22.879 21.79Z", fill: "currentColor" })));
-exports.TableList = TableList;
-exports.default = exports.TableList;
+exports.SvgTableList = SvgTableList;
 //# sourceMappingURL=index.js.map

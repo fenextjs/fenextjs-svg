@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.LaterIdentification = void 0;
+exports.SvgLaterIdentification = void 0;
 const tslib_1 = require("tslib");
 const react_1 = tslib_1.__importDefault(require("react"));
-const LaterIdentification = ({ className = '', }) => (react_1.default.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", className: `fenext_svg ${className}`, viewBox: "0 0 151.648 78.723" },
+const SvgLaterIdentification = ({ className = '', }) => (react_1.default.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", className: `fenext_svg ${className}`, viewBox: "0 0 151.648 78.723" },
     react_1.default.createElement("g", { "data-name": "Group 16124" },
         react_1.default.createElement("g", { "data-name": "Group 16041" },
             react_1.default.createElement("path", { "data-name": "Path 11680", d: "M130.621 79.962H8.387A5.379 5.379 0 0 1 3 74.592V8.37A5.379 5.379 0 0 1 8.387 3h122.234a5.379 5.379 0 0 1 5.387 5.37v66.222a5.379 5.379 0 0 1-5.387 5.37", transform: "translate(-2.116 -2.119)", fill: "#fff" }),
@@ -17,6 +17,5 @@ const LaterIdentification = ({ className = '', }) => (react_1.default.createElem
             react_1.default.createElement("path", { "data-name": "Path 11688", d: "M430.293 138.932a17.669 17.669 0 1 1-17.669-17.614 17.642 17.642 0 0 1 17.669 17.614", transform: "translate(-278.644 -85.703)", fill: "#fff" }),
             react_1.default.createElement("path", { "data-name": "Path 11689", d: "M419.014 151.558V147.6h-3.973a1.131 1.131 0 1 1 0-2.263h3.973v-3.96a1.135 1.135 0 0 1 2.27 0v3.96h3.973a1.131 1.131 0 1 1 0 2.263h-3.973v3.96a1.135 1.135 0 0 1-2.27 0m11.408-15.331a14.485 14.485 0 1 0-2.756 22.636 1.132 1.132 0 1 0-1.176-1.935 12.214 12.214 0 1 1 5.917-10.46 12.143 12.143 0 0 1-2.078 6.782 1.134 1.134 0 0 0 1.887 1.258 14.413 14.413 0 0 0-1.794-18.281", transform: "translate(-286.17 -93.239)", fill: "#050605" }),
             react_1.default.createElement("path", { "data-name": "Rectangle 7830", fill: "none", d: "M0 0h151.648v78.723H0z" })))));
-exports.LaterIdentification = LaterIdentification;
-exports.default = exports.LaterIdentification;
+exports.SvgLaterIdentification = SvgLaterIdentification;
 //# sourceMappingURL=index.js.map

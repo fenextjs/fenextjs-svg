@@ -1,5 +1,5 @@
 import React from 'react';
-export const Whatsapp = ({ className = '' }: { className?: string }) => (
+export const SvgWhatsapp = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 650 650"
@@ -12,7 +12,7 @@ export const Whatsapp = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export const WhatsappBox = ({ className = '' }: { className?: string }) => (
+export const SvgWhatsappBox = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 624 624"
@@ -27,4 +27,3 @@ export const WhatsappBox = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default Whatsapp;

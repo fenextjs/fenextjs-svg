@@ -1,5 +1,5 @@
 import React from 'react';
-export const OnlyFans = ({ className = '' }: { className?: string }) => (
+export const SvgOnlyFans = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 650 650"
@@ -44,4 +44,3 @@ export const OnlyFans = ({ className = '' }: { className?: string }) => (
         </g>
     </svg>
 );
-export default OnlyFans;

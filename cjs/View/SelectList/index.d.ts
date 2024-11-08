@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const SelectList: ({ className }: {
+export declare const SvgSelectList: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default SelectList;

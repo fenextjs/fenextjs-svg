@@ -1,5 +1,5 @@
 import React from 'react';
-export const CardVisaElectron = ({
+export const SvgCardVisaElectron = ({
     className = '',
 }: {
     className?: string;

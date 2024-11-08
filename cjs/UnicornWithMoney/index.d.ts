@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const UnicornWithMoney: ({ className, }: {
+export declare const SvgUnicornWithMoney: ({ className, }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default UnicornWithMoney;

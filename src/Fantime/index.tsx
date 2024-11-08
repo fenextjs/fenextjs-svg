@@ -1,5 +1,5 @@
 import React from 'react';
-export const Fantime = ({ className = '' }: { className?: string }) => (
+export const SvgFantime = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 650 650"
@@ -12,4 +12,3 @@ export const Fantime = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default Fantime;

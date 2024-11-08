@@ -1,5 +1,5 @@
 import React from 'react';
-export const Nequi = ({ className = '' }: { className?: string }) => (
+export const SvgNequi = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 650 650"
@@ -31,4 +31,3 @@ export const Nequi = ({ className = '' }: { className?: string }) => (
         </g>
     </svg>
 );
-export default Nequi;

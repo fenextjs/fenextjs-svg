@@ -1,5 +1,5 @@
 import React from 'react';
-export const UserAccount = ({ className = '' }: { className?: string }) => (
+export const SvgUserAccount = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 46 51"
@@ -23,7 +23,7 @@ export const UserAccount = ({ className = '' }: { className?: string }) => (
     </svg>
 );
 
-export const UserAccount2 = ({ className = '' }: { className?: string }) => (
+export const SvgUserAccount2 = ({ className = '' }: { className?: string }) => (
     <svg
         aria-hidden="true"
         focusable="false"
@@ -42,7 +42,7 @@ export const UserAccount2 = ({ className = '' }: { className?: string }) => (
         ></path>
     </svg>
 );
-export const UserAccount3 = ({ className = '' }: { className?: string }) => (
+export const SvgUserAccount3 = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 46 51"
@@ -65,5 +65,3 @@ export const UserAccount3 = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-
-export default UserAccount;

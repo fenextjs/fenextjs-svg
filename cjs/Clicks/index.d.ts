@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Clicks: ({ className }: {
+export declare const SvgClicks: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Clicks;

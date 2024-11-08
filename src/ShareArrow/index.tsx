@@ -1,5 +1,5 @@
 import React from 'react';
-export const ShareArrow = ({ className = '' }: { className?: string }) => (
+export const SvgShareArrow = ({ className = '' }: { className?: string }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 42.975 37.247"
@@ -12,4 +12,3 @@ export const ShareArrow = ({ className = '' }: { className?: string }) => (
         ></path>
     </svg>
 );
-export default ShareArrow;

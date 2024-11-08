@@ -1,5 +1,5 @@
 import React from 'react';
-export const Camsoda = ({ className = '' }: { className?: string }) => (
+export const SvgCamsoda = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 650 650"
@@ -23,4 +23,3 @@ export const Camsoda = ({ className = '' }: { className?: string }) => (
         <ellipse cx="392.5" cy="221" rx="17.5" ry="18.5" fill="currentColor" />
     </svg>
 );
-export default Camsoda;

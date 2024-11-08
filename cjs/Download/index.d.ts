@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Download: ({ className }: {
+export declare const SvgDownload: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Download;

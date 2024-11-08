@@ -1,5 +1,5 @@
 import React from 'react';
-export const PaginationUp = ({ className = '' }: { className?: string }) => (
+export const SvgPaginationUp = ({ className = '' }: { className?: string }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 448 512"
@@ -11,7 +11,11 @@ export const PaginationUp = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export const PaginationPre = ({ className = '' }: { className?: string }) => (
+export const SvgPaginationPre = ({
+    className = '',
+}: {
+    className?: string;
+}) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 320 512"
@@ -23,7 +27,11 @@ export const PaginationPre = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export const PaginationNext = ({ className = '' }: { className?: string }) => (
+export const SvgPaginationNext = ({
+    className = '',
+}: {
+    className?: string;
+}) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 320 512"
@@ -35,7 +43,11 @@ export const PaginationNext = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export const PaginationDown = ({ className = '' }: { className?: string }) => (
+export const SvgPaginationDown = ({
+    className = '',
+}: {
+    className?: string;
+}) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 448 512"

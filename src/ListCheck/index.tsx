@@ -1,5 +1,5 @@
 import React from 'react';
-export const ListCheck = ({ className = '' }: { className?: string }) => (
+export const SvgListCheck = ({ className = '' }: { className?: string }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         className={`fenext_svg ${className}`}
@@ -24,4 +24,3 @@ export const ListCheck = ({ className = '' }: { className?: string }) => (
         </g>
     </svg>
 );
-export default ListCheck;

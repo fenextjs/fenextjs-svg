@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Add: ({ className }: {
+export declare const SvgAdd: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Add;

@@ -1,5 +1,5 @@
 import React from 'react';
-export const ArrowPre = ({ className = '' }: { className?: string }) => (
+export const SvgArrowPre = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         xmlns="http://www.w3.org/2000/svg"
@@ -11,5 +11,3 @@ export const ArrowPre = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-
-export default ArrowPre;

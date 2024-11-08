@@ -1,5 +1,5 @@
 import React from 'react';
-export const Verified = ({ className = '' }: { className?: string }) => (
+export const SvgVerified = ({ className = '' }: { className?: string }) => (
     <svg
         data-name="Group 16147"
         xmlns="http://www.w3.org/2000/svg"
@@ -21,4 +21,3 @@ export const Verified = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default Verified;

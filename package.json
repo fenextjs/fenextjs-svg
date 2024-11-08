@@ -1,6 +1,6 @@
 {
   "name": "fenextjs-svg",
-  "version": "6.3.0",
+  "version": "7.0.0",
   "description": "",
   "main": "./cjs/index.js",
   "module": "./cjs/index.js",
@@ -41,7 +41,7 @@
   },
   "homepage": "https://github.com/franciscoblancojn/fenextjs-svg#readme",
   "dependencies": {
-    "fenextjs-nextjs-dependencies": "2.0.0"
+    "fenextjs-nextjs-dependencies": "3.0.0"
   },
   "files": [
     "cjs",

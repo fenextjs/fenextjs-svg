@@ -1,5 +1,5 @@
 import React from 'react';
-export const SVGNumberIncrease = ({
+export const SvgNumberIncrease = ({
     className = '',
 }: {
     className?: string;
@@ -16,7 +16,7 @@ export const SVGNumberIncrease = ({
         />
     </svg>
 );
-export const SVGNumberDecrease = ({
+export const SvgNumberDecrease = ({
     className = '',
 }: {
     className?: string;

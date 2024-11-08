@@ -1,8 +1,7 @@
 import React from 'react';
-export declare const Eye: ({ className }: {
+export declare const SvgEye: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export declare const EyeBar: ({ className }: {
+export declare const SvgEyeBar: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Eye;

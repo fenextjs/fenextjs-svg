@@ -1,5 +1,5 @@
 import React from 'react';
-export const ArrowNext = ({ className = '' }: { className?: string }) => (
+export const SvgArrowNext = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         xmlns="http://www.w3.org/2000/svg"
@@ -11,5 +11,3 @@ export const ArrowNext = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-
-export default ArrowNext;

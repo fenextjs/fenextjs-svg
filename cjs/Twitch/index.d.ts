@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Twitch: ({ className }: {
+export declare const SvgTwitch: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Twitch;

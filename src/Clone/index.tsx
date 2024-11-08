@@ -1,5 +1,5 @@
 import React from 'react';
-export const Clone = ({ className = '' }: { className?: string }) => (
+export const SvgClone = ({ className = '' }: { className?: string }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 512 512"
@@ -11,4 +11,3 @@ export const Clone = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default Clone;

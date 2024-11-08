@@ -1,8 +1,7 @@
 import React from 'react';
-export declare const X: ({ className }: {
+export declare const SvgX: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export declare const XBox: ({ className }: {
+export declare const SvgXBox: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default X;

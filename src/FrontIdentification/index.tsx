@@ -1,5 +1,5 @@
 import React from 'react';
-export const FrontIdentification = ({
+export const SvgFrontIdentification = ({
     className = '',
 }: {
     className?: string;
@@ -109,4 +109,3 @@ export const FrontIdentification = ({
         </g>
     </svg>
 );
-export default FrontIdentification;

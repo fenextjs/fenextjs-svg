@@ -1,5 +1,5 @@
 import React from 'react';
-export const ArrowGoBack = ({ className = '' }: { className?: string }) => (
+export const SvgArrowGoBack = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 34 17"
@@ -12,4 +12,3 @@ export const ArrowGoBack = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default ArrowGoBack;

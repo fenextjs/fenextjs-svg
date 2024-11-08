@@ -1,4 +1,4 @@
 import React from 'react';
-export declare const Google: ({ className }: {
+export declare const SvgGoogle: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;

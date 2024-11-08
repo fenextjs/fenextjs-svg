@@ -1,5 +1,5 @@
 import React from 'react';
-export const Eye = ({ className = '' }: { className?: string }) => (
+export const SvgEye = ({ className = '' }: { className?: string }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 576 512"
@@ -12,7 +12,7 @@ export const Eye = ({ className = '' }: { className?: string }) => (
     </svg>
 );
 
-export const EyeBar = ({ className = '' }: { className?: string }) => (
+export const SvgEyeBar = ({ className = '' }: { className?: string }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 640 512"
@@ -24,5 +24,3 @@ export const EyeBar = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-
-export default Eye;

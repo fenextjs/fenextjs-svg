@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const CryingUnicorn: ({ className }: {
+export declare const SvgCryingUnicorn: ({ className, }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default CryingUnicorn;

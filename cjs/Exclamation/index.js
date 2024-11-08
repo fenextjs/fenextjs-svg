@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Exclamation = void 0;
+exports.SvgExclamation = void 0;
 const tslib_1 = require("tslib");
 const react_1 = tslib_1.__importDefault(require("react"));
-const Exclamation = ({ className = '' }) => (react_1.default.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", className: `fenext_svg ${className}`, height: "20.759", viewBox: "0 0 20.759 20.759" },
+const SvgExclamation = ({ className = '' }) => (react_1.default.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", className: `fenext_svg ${className}`, height: "20.759", viewBox: "0 0 20.759 20.759" },
     react_1.default.createElement("g", { "data-name": "Group 16111" },
         react_1.default.createElement("g", { "data-name": "Group 16110" },
             react_1.default.createElement("g", { "data-name": "Group 16109" },
@@ -17,6 +17,5 @@ const Exclamation = ({ className = '' }) => (react_1.default.createElement("svg"
                     react_1.default.createElement("g", { "data-name": "Group 16012" },
                         react_1.default.createElement("g", { "data-name": "Group 16011" },
                             react_1.default.createElement("path", { "data-name": "Path 12236", d: "M229.5 134.208a.984.984 0 1 0 1.107.97 1.058 1.058 0 0 0-1.107-.97z", transform: "translate(-219.116 -128.767)", fill: "currentColor" })))))))));
-exports.Exclamation = Exclamation;
-exports.default = exports.Exclamation;
+exports.SvgExclamation = SvgExclamation;
 //# sourceMappingURL=index.js.map

@@ -1,5 +1,5 @@
 import React from 'react';
-export const Paypal = ({ className = '' }: { className?: string }) => (
+export const SvgPaypal = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 650 650"
@@ -12,4 +12,3 @@ export const Paypal = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default Paypal;

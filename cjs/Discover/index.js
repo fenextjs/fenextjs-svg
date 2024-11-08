@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Discover = void 0;
+exports.SvgDiscover = void 0;
 const tslib_1 = require("tslib");
 const react_1 = tslib_1.__importDefault(require("react"));
-const Discover = ({ className = '' }) => (react_1.default.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", className: `fenext_svg ${className}`, viewBox: "0 0 64.676 10.895" },
+const SvgDiscover = ({ className = '' }) => (react_1.default.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", className: `fenext_svg ${className}`, viewBox: "0 0 64.676 10.895" },
     react_1.default.createElement("defs", null,
         react_1.default.createElement("linearGradient", { id: "fymcimdnia", x1: ".288", y1: ".047", x2: ".712", y2: ".953", gradientUnits: "objectBoundingBox" },
             react_1.default.createElement("stop", { offset: ".383", "stop-color": "#e45e26" }),
@@ -28,6 +28,5 @@ const Discover = ({ className = '' }) => (react_1.default.createElement("svg", {
         react_1.default.createElement("g", { "data-name": "Group 16014", transform: "translate(28.389)" },
             react_1.default.createElement("ellipse", { "data-name": "Ellipse 130", cx: "5.428", cy: "5.448", rx: "5.428", ry: "5.448", fill: "url(#fymcimdnia)" }),
             react_1.default.createElement("ellipse", { "data-name": "Ellipse 131", cx: "5.428", cy: "5.448", rx: "5.428", ry: "5.448", fill: "url(#of602t8tlb)" })))));
-exports.Discover = Discover;
-exports.default = exports.Discover;
+exports.SvgDiscover = SvgDiscover;
 //# sourceMappingURL=index.js.map

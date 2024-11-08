@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Amazon: ({ className }: {
+export declare const SvgAmazon: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Amazon;

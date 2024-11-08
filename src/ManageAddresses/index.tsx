@@ -1,5 +1,9 @@
 import React from 'react';
-export const ManageAddresses = ({ className = '' }: { className?: string }) => (
+export const SvgManageAddresses = ({
+    className = '',
+}: {
+    className?: string;
+}) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 46 46"
@@ -20,4 +24,3 @@ export const ManageAddresses = ({ className = '' }: { className?: string }) => (
         ></path>
     </svg>
 );
-export default ManageAddresses;

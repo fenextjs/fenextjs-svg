@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Verified: ({ className }: {
+export declare const SvgVerified: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Verified;

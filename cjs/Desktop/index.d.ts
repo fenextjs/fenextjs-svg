@@ -1,8 +1,7 @@
 import React from 'react';
-export declare const Desktop: ({ className }: {
+export declare const SvgDesktop: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export declare const DesktopLayer: ({ className }: {
+export declare const SvgDesktopLayer: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Desktop;

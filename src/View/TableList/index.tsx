@@ -1,5 +1,5 @@
 import React from 'react';
-export const TableList = ({ className = '' }: { className?: string }) => (
+export const SvgTableList = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 27 24"
@@ -12,4 +12,3 @@ export const TableList = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default TableList;

@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Reddit: ({ className }: {
+export declare const SvgReddit: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Reddit;

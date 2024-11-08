@@ -1,5 +1,5 @@
 import React from 'react';
-export const Bolt = ({ className = '' }: { className?: string }) => (
+export const SvgBolt = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 385 513"

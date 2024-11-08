@@ -1,5 +1,9 @@
 import React from 'react';
-export const CardMasterCard = ({ className = '' }: { className?: string }) => (
+export const SvgCardMasterCard = ({
+    className = '',
+}: {
+    className?: string;
+}) => (
     <svg
         className={`fenext_svg fenext_svg_card_mastercard ${className}`}
         width="10000"

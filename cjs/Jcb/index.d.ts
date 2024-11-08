@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Jcb: ({ className }: {
+export declare const SvgJcb: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Jcb;

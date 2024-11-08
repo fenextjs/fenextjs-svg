@@ -1,5 +1,5 @@
 import React from 'react';
-export const Color = ({ className = '' }: { className?: string }) => (
+export const SvgColor = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 50 50"
@@ -12,4 +12,3 @@ export const Color = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default Color;

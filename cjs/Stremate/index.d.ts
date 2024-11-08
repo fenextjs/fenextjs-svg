@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Stremate: ({ className }: {
+export declare const SvgStremate: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Stremate;

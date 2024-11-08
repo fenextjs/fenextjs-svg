@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Jcb = void 0;
+exports.SvgJcb = void 0;
 const tslib_1 = require("tslib");
 const react_1 = tslib_1.__importDefault(require("react"));
-const Jcb = ({ className = '' }) => (react_1.default.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", className: `fenext_svg ${className}`, viewBox: "0 0 31.388 23.52" },
+const SvgJcb = ({ className = '' }) => (react_1.default.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", className: `fenext_svg ${className}`, viewBox: "0 0 31.388 23.52" },
     react_1.default.createElement("defs", null,
         react_1.default.createElement("linearGradient", { id: "m9lkceuzla", y1: ".5", x2: "1", y2: ".5", gradientUnits: "objectBoundingBox" },
             react_1.default.createElement("stop", { offset: "0", "stop-color": "#2b327b" }),
@@ -19,6 +19,5 @@ const Jcb = ({ className = '' }) => (react_1.default.createElement("svg", { xmln
     react_1.default.createElement("path", { "data-name": "Path 12248", d: "M387.643 263.719c-.65.006-2.068-.007-2.324 0v2.078l2.324.008a1.054 1.054 0 0 0 1.02-1.061 1.02 1.02 0 0 0-1.02-1.025z", transform: "translate(-361.69 -251.481)", fill: "url(#yw2ll5vl0c)" }),
     react_1.default.createElement("path", { "data-name": "Path 12249", d: "M388.2 214.586a.94.94 0 0 0-.924-.988c-.67.016-1.877-.017-2.141.007l-.008 1.892 2.2.016a.939.939 0 0 0 .873-.927z", transform: "translate(-361.512 -204.434)", fill: "url(#yw2ll5vl0c)" }),
     react_1.default.createElement("path", { "data-name": "Path 12250", d: "M358.137 64.159a3.937 3.937 0 0 0-3.8 3.8v4.181h5.641c1.122 0 2.444.48 2.444 1.845 0 .732-.39 1.561-1.794 1.83v.031a2.083 2.083 0 0 1 2.242 1.928c0 1.495-1.536 1.91-2.359 1.91l-6.176.006v7.989h5.935a3.933 3.933 0 0 0 3.73-3.815V64.159z", transform: "translate(-332.608 -64.159)", fill: "url(#yw2ll5vl0c)" })));
-exports.Jcb = Jcb;
-exports.default = exports.Jcb;
+exports.SvgJcb = SvgJcb;
 //# sourceMappingURL=index.js.map

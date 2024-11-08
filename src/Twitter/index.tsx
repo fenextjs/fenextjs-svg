@@ -1,5 +1,5 @@
 import React from 'react';
-export const Twitter = ({ className = '' }: { className?: string }) => (
+export const SvgTwitter = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 650 650"
@@ -13,7 +13,7 @@ export const Twitter = ({ className = '' }: { className?: string }) => (
     </svg>
 );
 
-export const TwitterBox = ({ className = '' }: { className?: string }) => (
+export const SvgTwitterBox = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 624 624"
@@ -28,4 +28,3 @@ export const TwitterBox = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default Twitter;

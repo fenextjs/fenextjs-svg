@@ -1,5 +1,5 @@
 import React from 'react';
-export const Download = ({ className = '' }: { className?: string }) => (
+export const SvgDownload = ({ className = '' }: { className?: string }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         className={`fenext_svg ${className}`}
@@ -11,4 +11,3 @@ export const Download = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default Download;

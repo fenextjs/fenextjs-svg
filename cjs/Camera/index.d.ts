@@ -1,11 +1,10 @@
 import React from 'react';
-export declare const Camera: ({ className }: {
+export declare const SvgCamera: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export declare const Camera2: ({ className }: {
+export declare const SvgCamera2: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export declare const CameraChange: ({ className }: {
+export declare const SvgCameraChange: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Camera;

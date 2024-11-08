@@ -1,5 +1,5 @@
 import React from 'react';
-export const Edit = ({ className = '' }: { className?: string }) => (
+export const SvgEdit = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 38 38"
@@ -23,4 +23,3 @@ export const Edit = ({ className = '' }: { className?: string }) => (
         ></path>
     </svg>
 );
-export default Edit;

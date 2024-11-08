@@ -1,5 +1,5 @@
 import React from 'react';
-export const Stack = ({ className = '' }: { className?: string }) => (
+export const SvgStack = ({ className = '' }: { className?: string }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         className={`fenext_svg ${className}`}
@@ -37,4 +37,3 @@ export const Stack = ({ className = '' }: { className?: string }) => (
         </g>
     </svg>
 );
-export default Stack;

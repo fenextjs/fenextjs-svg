@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Trash: ({ className }: {
+export declare const SvgTrash: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Trash;

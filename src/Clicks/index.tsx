@@ -1,5 +1,5 @@
 import React from 'react';
-export const Clicks = ({ className = '' }: { className?: string }) => (
+export const SvgClicks = ({ className = '' }: { className?: string }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 23.779 32.6"
@@ -60,4 +60,3 @@ export const Clicks = ({ className = '' }: { className?: string }) => (
         </g>
     </svg>
 );
-export default Clicks;

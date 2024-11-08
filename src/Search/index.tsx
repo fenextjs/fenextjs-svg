@@ -1,5 +1,5 @@
 import React from 'react';
-export const SVGSearch = ({ className = '' }: { className?: string }) => (
+export const SvgSearch = ({ className = '' }: { className?: string }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 512 512"
@@ -11,4 +11,3 @@ export const SVGSearch = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default SVGSearch;

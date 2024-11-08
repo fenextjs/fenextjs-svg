@@ -1,5 +1,5 @@
 import React from 'react';
-export const Payment = ({ className = '' }: { className?: string }) => (
+export const SvgPayment = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 62 42"
@@ -33,4 +33,3 @@ export const Payment = ({ className = '' }: { className?: string }) => (
         ></path>
     </svg>
 );
-export default Payment;

@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Estadisticas: ({ className }: {
+export declare const SvgEstadisticas: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Estadisticas;

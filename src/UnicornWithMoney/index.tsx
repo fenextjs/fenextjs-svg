@@ -1,5 +1,5 @@
 import React from 'react';
-export const UnicornWithMoney = ({
+export const SvgUnicornWithMoney = ({
     className = '',
 }: {
     className?: string;
@@ -201,4 +201,3 @@ export const UnicornWithMoney = ({
         </g>
     </svg>
 );
-export default UnicornWithMoney;

@@ -1,5 +1,5 @@
 import React from 'react';
-export const Cancel = ({ className = '' }: { className?: string }) => (
+export const SvgCancel = ({ className = '' }: { className?: string }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         className={`fenext_svg ${className}`}
@@ -13,4 +13,3 @@ export const Cancel = ({ className = '' }: { className?: string }) => (
         ></path>
     </svg>
 );
-export default Cancel;

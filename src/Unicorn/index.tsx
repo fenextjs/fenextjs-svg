@@ -1,5 +1,5 @@
 import React from 'react';
-export const Unicorn = ({ className = '' }: { className?: string }) => (
+export const SvgUnicorn = ({ className = '' }: { className?: string }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         className={`fenext_svg ${className}`}
@@ -125,4 +125,3 @@ export const Unicorn = ({ className = '' }: { className?: string }) => (
         </g>
     </svg>
 );
-export default Unicorn;

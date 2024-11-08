@@ -1,5 +1,5 @@
 import React from 'react';
-export const Email = ({ className = '' }: { className?: string }) => (
+export const SvgEmail = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 650 650"
@@ -13,7 +13,7 @@ export const Email = ({ className = '' }: { className?: string }) => (
     </svg>
 );
 
-export const EmailBox = ({ className = '' }: { className?: string }) => (
+export const SvgEmailBox = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 624 624"
@@ -28,4 +28,3 @@ export const EmailBox = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default Email;

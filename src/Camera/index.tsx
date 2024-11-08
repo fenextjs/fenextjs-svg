@@ -1,5 +1,5 @@
 import React from 'react';
-export const Camera = ({ className = '' }: { className?: string }) => (
+export const SvgCamera = ({ className = '' }: { className?: string }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         className={`fenext_svg ${className}`}
@@ -20,7 +20,7 @@ export const Camera = ({ className = '' }: { className?: string }) => (
     </svg>
 );
 
-export const Camera2 = ({ className = '' }: { className?: string }) => (
+export const SvgCamera2 = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ export const Camera2 = ({ className = '' }: { className?: string }) => (
     </svg>
 );
 
-export const CameraChange = ({ className = '' }: { className?: string }) => (
+export const SvgCameraChange = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         xmlns="http://www.w3.org/2000/svg"
@@ -45,4 +45,3 @@ export const CameraChange = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default Camera;

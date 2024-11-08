@@ -1,5 +1,5 @@
 import React from 'react';
-export const Brush = ({ className = '' }: { className?: string }) => (
+export const SvgBrush = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 38 50"
@@ -12,4 +12,3 @@ export const Brush = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default Brush;

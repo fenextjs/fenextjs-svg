@@ -1,4 +1,4 @@
 import React from 'react';
-export declare const CardDinersClub: ({ className }: {
+export declare const SvgCardDinersClub: ({ className, }: {
     className?: string | undefined;
 }) => React.JSX.Element;

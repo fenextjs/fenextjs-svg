@@ -1,5 +1,5 @@
 import React from 'react';
-export const MasterCard = ({ className = '' }: { className?: string }) => (
+export const SvgMasterCard = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 105 65"
@@ -28,4 +28,3 @@ export const MasterCard = ({ className = '' }: { className?: string }) => (
         </defs>
     </svg>
 );
-export default MasterCard;

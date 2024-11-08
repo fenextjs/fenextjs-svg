@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const SVGSearch: ({ className }: {
+export declare const SvgSearch: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default SVGSearch;

@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Border: ({ className }: {
+export declare const SvgBorder: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Border;

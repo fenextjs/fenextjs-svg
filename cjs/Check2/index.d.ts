@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Check2: ({ className }: {
+export declare const SvgCheck2: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Check2;

@@ -1,5 +1,5 @@
 import React from 'react';
-export const Trash = ({ className = '' }: { className?: string }) => (
+export const SvgTrash = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 19.389 23.873"
@@ -29,4 +29,3 @@ export const Trash = ({ className = '' }: { className?: string }) => (
         </g>
     </svg>
 );
-export default Trash;

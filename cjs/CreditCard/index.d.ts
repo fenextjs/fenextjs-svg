@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const CreditCard: ({ className }: {
+export declare const SvgCreditCard: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default CreditCard;

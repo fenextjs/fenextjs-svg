@@ -1,5 +1,5 @@
 import React from 'react';
-export const Size = ({ className = '' }: { className?: string }) => (
+export const SvgSize = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 662 662"
@@ -21,4 +21,3 @@ export const Size = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default Size;

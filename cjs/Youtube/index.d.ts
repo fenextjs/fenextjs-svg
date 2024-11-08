@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Youtube: ({ className }: {
+export declare const SvgYoutube: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Youtube;

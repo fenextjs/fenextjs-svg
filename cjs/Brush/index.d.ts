@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Brush: ({ className }: {
+export declare const SvgBrush: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Brush;

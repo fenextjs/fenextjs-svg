@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const TableList: ({ className }: {
+export declare const SvgTableList: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default TableList;

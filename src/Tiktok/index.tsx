@@ -1,5 +1,5 @@
 import React from 'react';
-export const Tiktok = ({ className = '' }: { className?: string }) => (
+export const SvgTiktok = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 650 650"
@@ -12,4 +12,3 @@ export const Tiktok = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default Tiktok;

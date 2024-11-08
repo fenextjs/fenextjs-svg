@@ -1,13 +1,13 @@
 import React from 'react';
-export declare const PaginationUp: ({ className }: {
+export declare const SvgPaginationUp: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export declare const PaginationPre: ({ className }: {
+export declare const SvgPaginationPre: ({ className, }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export declare const PaginationNext: ({ className }: {
+export declare const SvgPaginationNext: ({ className, }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export declare const PaginationDown: ({ className }: {
+export declare const SvgPaginationDown: ({ className, }: {
     className?: string | undefined;
 }) => React.JSX.Element;

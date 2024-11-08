@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Cancel: ({ className }: {
+export declare const SvgCancel: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Cancel;

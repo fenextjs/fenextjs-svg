@@ -1,5 +1,5 @@
 import React from 'react';
-export const LaterIdentification = ({
+export const SvgLaterIdentification = ({
     className = '',
 }: {
     className?: string;
@@ -79,4 +79,3 @@ export const LaterIdentification = ({
         </g>
     </svg>
 );
-export default LaterIdentification;

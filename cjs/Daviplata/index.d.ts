@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Daviplata: ({ className }: {
+export declare const SvgDaviplata: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Daviplata;

@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Size: ({ className }: {
+export declare const SvgSize: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Size;

@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Font: ({ className }: {
+export declare const SvgFont: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Font;

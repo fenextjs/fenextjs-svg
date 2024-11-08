@@ -11,4 +11,3 @@ export const SvgLink = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default SvgLink;

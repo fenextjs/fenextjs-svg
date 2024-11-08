@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const NoConfirm: ({ className }: {
+export declare const SvgNoConfirm: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default NoConfirm;

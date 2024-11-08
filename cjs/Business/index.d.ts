@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Business: ({ className }: {
+export declare const SvgBusiness: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Business;

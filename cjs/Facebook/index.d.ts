@@ -1,7 +1,7 @@
 import React from 'react';
-export declare const Facebook: ({ className }: {
+export declare const SvgFacebook: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export declare const FacebookBox: ({ className }: {
+export declare const SvgFacebookBox: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;

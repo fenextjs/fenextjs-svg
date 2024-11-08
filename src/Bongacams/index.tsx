@@ -1,5 +1,5 @@
 import React from 'react';
-export const Bongacams = ({ className = '' }: { className?: string }) => (
+export const SvgBongacams = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 653 650"
@@ -25,4 +25,3 @@ export const Bongacams = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default Bongacams;

@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Discover: ({ className }: {
+export declare const SvgDiscover: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Discover;

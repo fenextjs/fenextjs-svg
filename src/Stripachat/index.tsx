@@ -1,5 +1,5 @@
 import React from 'react';
-export const Stripachat = ({ className = '' }: { className?: string }) => (
+export const SvgStripachat = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 650 650"
@@ -20,4 +20,3 @@ export const Stripachat = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default Stripachat;

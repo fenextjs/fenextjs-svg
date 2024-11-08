@@ -1,5 +1,5 @@
 import React from 'react';
-export const Font = ({ className = '' }: { className?: string }) => (
+export const SvgFont = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         xmlns="http://www.w3.org/2000/svg"
@@ -11,4 +11,3 @@ export const Font = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default Font;

@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const ArrowNext: ({ className }: {
+export declare const SvgArrowNext: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default ArrowNext;

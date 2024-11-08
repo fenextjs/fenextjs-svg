@@ -1,5 +1,5 @@
 import React from 'react';
-export const ImgAvatar = ({ className = '' }: { className?: string }) => (
+export const SvgImgAvatar = ({ className = '' }: { className?: string }) => (
     <svg
         aria-hidden="true"
         focusable="false"

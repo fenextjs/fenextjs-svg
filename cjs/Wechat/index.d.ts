@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Wechat: ({ className }: {
+export declare const SvgWechat: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Wechat;

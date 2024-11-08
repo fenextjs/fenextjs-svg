@@ -1,5 +1,5 @@
 import React from 'react';
-export const Move = ({ className = '' }: { className?: string }) => (
+export const SvgMove = ({ className = '' }: { className?: string }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         className={`fenext_svg ${className}`}
@@ -12,4 +12,3 @@ export const Move = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default Move;

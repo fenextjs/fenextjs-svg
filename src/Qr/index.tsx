@@ -1,5 +1,5 @@
 import React from 'react';
-export const Qr = ({ className = '' }: { className?: string }) => (
+export const SvgQr = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 448 448"

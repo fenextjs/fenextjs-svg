@@ -1,5 +1,5 @@
 import React from 'react';
-export const NoConfirm = ({ className = '' }: { className?: string }) => (
+export const SvgNoConfirm = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 71 71"
@@ -21,5 +21,3 @@ export const NoConfirm = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-
-export default NoConfirm;

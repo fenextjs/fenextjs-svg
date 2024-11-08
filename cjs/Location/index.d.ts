@@ -1,4 +1,4 @@
 import React from 'react';
-export declare const Location: ({ className }: {
+export declare const SvgLocation: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;

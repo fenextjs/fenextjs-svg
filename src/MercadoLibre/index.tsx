@@ -1,5 +1,5 @@
 import React from 'react';
-export const MercadoLibre = ({ className = '' }: { className?: string }) => (
+export const SvgMercadoLibre = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 650 650"
@@ -38,4 +38,3 @@ export const MercadoLibre = ({ className = '' }: { className?: string }) => (
         />
     </svg>
 );
-export default MercadoLibre;

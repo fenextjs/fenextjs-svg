@@ -1,5 +1,5 @@
 import React from 'react';
-export const SaveCheck = ({ className = '' }: { className?: string }) => (
+export const SvgSaveCheck = ({ className = '' }: { className?: string }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         className={`fenext_svg ${className}`}
@@ -17,4 +17,3 @@ export const SaveCheck = ({ className = '' }: { className?: string }) => (
         </g>
     </svg>
 );
-export default SaveCheck;

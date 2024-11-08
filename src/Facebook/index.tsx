@@ -1,5 +1,5 @@
 import React from 'react';
-export const Facebook = ({ className = '' }: { className?: string }) => (
+export const SvgFacebook = ({ className = '' }: { className?: string }) => (
     <svg
         aria-hidden="true"
         focusable="false"
@@ -17,7 +17,7 @@ export const Facebook = ({ className = '' }: { className?: string }) => (
     </svg>
 );
 
-export const FacebookBox = ({ className = '' }: { className?: string }) => (
+export const SvgFacebookBox = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 624 624"

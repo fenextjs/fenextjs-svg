@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Telegram: ({ className }: {
+export declare const SvgTelegram: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Telegram;

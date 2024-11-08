@@ -1,5 +1,4 @@
 import React from 'react';
-export declare const Cams: ({ className }: {
+export declare const SvgCams: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;
-export default Cams;
