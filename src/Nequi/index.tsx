@@ -8,8 +8,10 @@ export const SvgNequi = ({ className = '' }: { className?: string }) => (
     >
         <mask
             id="mask0_536_73"
-            style={{ maskType: 'alpha' }}
+            // style={{ maskType: 'alpha' }}
             maskUnits="userSpaceOnUse"
+            // maskType='alpha'
+            {...({ maskType: 'alpha' } as any)}
             x="0"
             y="0"
             width="650"

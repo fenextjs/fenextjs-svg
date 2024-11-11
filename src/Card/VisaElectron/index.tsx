@@ -6,8 +6,6 @@ export const SvgCardVisaElectron = ({
 }) => (
     <svg
         className={`fenext_svg fenext_svg_card_visa_electron ${className}`}
-        width="10000"
-        height="5000"
         viewBox="0 0 10000 5000"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

@@ -3,7 +3,6 @@ export const SvgClose = ({ className = '' }: { className?: string }) => (
     <>
         <svg
             className={`fenext_svg ${className}`}
-            style={{ maxWidth: '100%' }}
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 320 512"
         >

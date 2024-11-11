@@ -21,7 +21,9 @@ export const SvgOnlyFans = ({ className = '' }: { className?: string }) => (
         />
         <mask
             id="mask0_538_176"
-            style={{ maskType: 'alpha' }}
+            // style={{ maskType: 'alpha' }}
+
+            {...({ maskType: 'alpha' } as any)}
             maskUnits="userSpaceOnUse"
             x="176"
             y="150"
