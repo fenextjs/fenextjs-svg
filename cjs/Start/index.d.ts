@@ -1,4 +1,4 @@
 import React from 'react';
-export declare const SvgStar: ({ className }: {
+export declare const SvgStart: ({ className }: {
     className?: string | undefined;
 }) => React.JSX.Element;

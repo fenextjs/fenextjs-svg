@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.SvgCardMasterCard = void 0;
 const tslib_1 = require("tslib");
 const react_1 = tslib_1.__importDefault(require("react"));
-const SvgCardMasterCard = ({ className = '', }) => (react_1.default.createElement("svg", { className: `fenext_svg fenext_svg_card_mastercard ${className}`, width: "10000", height: "5000", viewBox: "0 0 10000 5000", fill: "none", xmlns: "http://www.w3.org/2000/svg" },
+const SvgCardMasterCard = ({ className = '', }) => (react_1.default.createElement("svg", { className: `fenext_svg fenext_svg_card_mastercard ${className}`, viewBox: "0 0 10000 5000", fill: "none", xmlns: "http://www.w3.org/2000/svg" },
     react_1.default.createElement("rect", { width: "10000", height: "5000", rx: "940", fill: "var(--fenext-svg-bg,#FFF)" }),
     react_1.default.createElement("path", { d: "M5670.39 1296.33H4330.54V3703.67H5670.39V1296.33Z", fill: "var(--fenext-svg-color-1,#F16022)" }),
     react_1.default.createElement("path", { d: "M4415.61 2500C4415.61 2011.62 4644.32 1576.66 5000.47 1296.33C4740.01 1091.32 4411.36 969 4054.16 969C3208.52 969 2523 1654.45 2523 2500C2523 3345.54 3208.52 4031 4054.16 4031C4411.36 4031 4740.01 3908.68 5000.47 3703.67C4644.32 3423.33 4415.61 2988.38 4415.61 2500Z", fill: "var(--fenext-svg-color-2,#E91D25)" }),

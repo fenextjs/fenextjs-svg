@@ -1,5 +1,9 @@
 import React from 'react';
-export const SvgViewSelectBox = ({ className = '' }: { className?: string }) => (
+export const SvgViewSelectBox = ({
+    className = '',
+}: {
+    className?: string;
+}) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 25 25"
