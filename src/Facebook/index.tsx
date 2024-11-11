@@ -25,8 +25,8 @@ export const SvgFacebookBox = ({ className = '' }: { className?: string }) => (
         xmlns="http://www.w3.org/2000/svg"
     >
         <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M100 0C44.7715 0 0 44.7715 0 100V524C0 579.228 44.7715 624 100 624H524C579.228 624 624 579.229 624 524V100C624 44.7715 579.229 0 524 0H100ZM445.47 251.34L431.25 344H356.56V568H256.39V344H175V251.34H256.39V180.72C256.39 100.38 304.25 56 377.47 56C412.54 56 449.22 62.26 449.22 62.26V141.15H408.8C368.98 141.15 356.56 165.86 356.56 191.21V251.34H445.47Z"
             fill="currentColor"
         />

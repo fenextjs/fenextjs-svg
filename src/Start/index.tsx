@@ -1,5 +1,5 @@
 import React from 'react';
-export const SvgStar = ({ className = '' }: { className?: string }) => (
+export const SvgStart = ({ className = '' }: { className?: string }) => (
     <>
         <svg
             xmlns="http://www.w3.org/2000/svg"

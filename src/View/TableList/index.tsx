@@ -1,5 +1,5 @@
 import React from 'react';
-export const SvgTableList = ({ className = '' }: { className?: string }) => (
+export const SvgViewTableList = ({ className = '' }: { className?: string }) => (
     <svg
         className={`fenext_svg ${className}`}
         viewBox="0 0 27 24"
