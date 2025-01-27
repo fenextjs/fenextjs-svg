@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/PaperClip/index.tsx"],"names":[],"mappings":";;;;AAAA,0DAA0B;AACnB,MAAM,YAAY,GAAG,CAAC,EAAE,SAAS,GAAG,EAAE,EAA0B,EAAE,EAAE,CAAC,CACxE,uCAAK,SAAS,EAAE,cAAc,SAAS,EAAE,EAAE,OAAO,EAAC,aAAa;IAC5D,wCACI,CAAC,EAAC,6bAA6b,EAC/b,IAAI,EAAC,cAAc,GACrB,CACA,CACT,CAAC;AAPW,QAAA,YAAY,gBAOvB"}
