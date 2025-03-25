@@ -23,7 +23,7 @@
     "update-package": "ncu -u '/^fenextjs.*$/'",
     "update": "npm run update-package && npm run remove && npm run bun-i && npm run flb",
     "u": "npm run update",
-    "generate":"bun ./scripts/generate.tsx"
+    "generate": "bun ./scripts/generate.tsx"
   },
   "repository": {
     "type": "git",
@@ -42,7 +42,7 @@
   },
   "homepage": "https://github.com/franciscoblancojn/fenextjs-svg#readme",
   "dependencies": {
-    "fenextjs-nextjs-dependencies": "3.0.0"
+    "fenextjs-dependencies": "1.0.0"
   },
   "files": [
     "cjs",
